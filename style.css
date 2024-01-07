@@ -1,0 +1,294 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #262626;
+  padding: 32px 20px 24px 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  max-width: 552px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+nav h2 {
+  color: #fafafa;
+  font-family: "Apercu Pro", sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 12px;
+}
+
+nav h5 {
+  color: rgba(250, 250, 250, 0.8);
+  font-family: "Apercu Pro", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+nav p {
+  color: rgba(250, 250, 250, 0.8);
+  font-family: "Apercu Pro", sans-serif;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+nav div:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+nav p:last-child {
+  text-decoration: underline;
+}
+
+.skills {
+  max-width: 552px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 32px;
+}
+
+.skills h3 {
+  color: #fafafa;
+  font-family: "Apercu Pro", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.skills div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 18px;
+}
+
+.skills div h6 {
+  border-radius: 4px;
+  background: #bdbdbd;
+  padding: 6px 10px;
+  color: #262626;
+  font-family: "Apercu Pro", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.experience {
+  max-width: 552px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 18px;
+}
+
+.experience h3 {
+  margin-top: 18px;
+  color: #fafafa;
+  font-family: "Apercu Pro", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.experience h4 {
+  margin-top: 15px;
+  color: #fafafa;
+  font-family: "Apercu Pro", sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.experience h5 {
+  margin-top: 6px;
+  color: rgba(250, 250, 250, 0.8);
+  font-family: "Apercu Pro", sans-serif;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-decoration-line: underline;
+}
+
+.experience h6 {
+  margin-top: 6px;
+  color: rgba(250, 250, 250, 0.6);
+  font-family: "Apercu Pro", sans-serif;
+  font-size: 9px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.experience h6 span {
+  font-weight: 700;
+}
+
+.experience ul {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.experience ul li {
+  color: rgba(250, 250, 250, 0.7);
+  font-family: "Apercu Pro", sans-serif;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 134.25%; /* 13.425px */
+}
+
+.experience p {
+  margin-top: 20px;
+  color: rgba(250, 250, 250, 0.7);
+  font-family: "Apercu Pro", sans-serif;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 134.25%; /* 13.425px */
+}
+
+.projects {
+  max-width: 552px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 32px;
+}
+
+.projects h3 {
+  color: #fafafa;
+  font-family: "Apercu Pro", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.projects h4 {
+  margin-top: 18px;
+  color: #fafafa;
+  font-family: "Apercu Pro", sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.projects p {
+  margin-top: 4px;
+  color: rgba(250, 250, 250, 0.7);
+  font-family: "Apercu Pro", sans-serif;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 134.25%; /* 13.425px */
+}
+
+.education {
+  max-width: 552px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.education h3 {
+  margin-top: 32px;
+  color: #fafafa;
+  font-family: "Apercu Pro", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.education h5 {
+  margin-top: 18px;
+  color: #fafafa;
+  font-family: "Apercu Pro", sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.education h6 {
+  margin-top: 6px;
+  color: rgba(250, 250, 250, 0.8);
+  font-family: "Apercu Pro", sans-serif;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.education p {
+  margin-top: 6px;
+  color: rgba(250, 250, 250, 0.6);
+  font-family: "Apercu Pro", sans-serif;
+  font-size: 9px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.education h4 {
+  color: rgba(250, 250, 250, 0.8);
+  font-family: "Apercu Pro", sans-serif;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-top: 6px;
+}
+
+.education h4 span {
+  color: rgba(250, 250, 250, 0.6);
+  font-size: 9px;
+  font-weight: 600;
+}
+
+section.education h4:first-of-type {
+  margin-top: 18px;
+}
+
+footer {
+  max-width: 552px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 37px;
+}
+
+footer a {
+  color: #fff;
+  font-family: "Apercu Pro", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-decoration-line: underline;
+}
